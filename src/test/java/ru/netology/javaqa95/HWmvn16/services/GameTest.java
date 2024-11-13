@@ -22,10 +22,6 @@ class GameTest {
 
         Assertions.assertEquals(1, game.round("Петя", "Коля"));
 
-//        game.register(petya88);
-//        Assertions.assertEquals(1, game.round("Петя", "Петя")); // Сравнивает только petya96 с petya96, а не с petya96 с petya88.
-//        Assertions.assertEquals(1, game.round(petya96.getName(),petya88.getName())); // Нужно сравнивать по id
-
     }
 
     @Test
